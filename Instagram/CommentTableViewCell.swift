@@ -1,16 +1,17 @@
+
 //
-//  PostTableViewCell.swift
+//  CommentTableViewCell.swift
 //  Instagram
 //
-//  Created by 이승헌 on 13/02/2019.
+//  Created by 이승헌 on 18/02/2019.
 //  Copyright © 2019 individual. All rights reserved.
 //
 
 import UIKit
 
-class PostTableViewCell: UITableViewCell {
+class CommentTableViewCell: UITableViewCell {
+
     @IBOutlet weak var comment_label: UILabel!
-    @IBOutlet weak var postImageView: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -11,6 +11,7 @@
 		B555A47C7D7F89F9123075E9 /* Pods_InstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5205C843DB49C8B992E99F18 /* Pods_InstagramUITests.framework */; };
 		C26055B12214E52E00ED68DF /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26055B02214E52E00ED68DF /* CameraViewController.swift */; };
 		C26055B32214EFC400ED68DF /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26055B22214EFC400ED68DF /* PostTableViewCell.swift */; };
+		C28555A8221B79230020CFDC /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28555A7221B79230020CFDC /* CommentTableViewCell.swift */; };
 		C2D223B722123B09002F8D0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D223B622123B09002F8D0D /* AppDelegate.swift */; };
 		C2D223BC22123B09002F8D0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D223BA22123B09002F8D0D /* Main.storyboard */; };
 		C2D223BE22123B0B002F8D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D223BD22123B0B002F8D0D /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 		BD65526F6A7B875D4FC3DF1B /* Pods-InstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramTests/Pods-InstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C26055B02214E52E00ED68DF /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		C26055B22214EFC400ED68DF /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		C28555A7221B79230020CFDC /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
 		C2D223B322123B09002F8D0D /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D223B622123B09002F8D0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2D223BB22123B09002F8D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				C2D223E822124806002F8D0D /* FeedViewController.swift */,
 				C26055B02214E52E00ED68DF /* CameraViewController.swift */,
 				C26055B22214EFC400ED68DF /* PostTableViewCell.swift */,
+				C28555A7221B79230020CFDC /* CommentTableViewCell.swift */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -348,6 +352,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +412,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2D223E5221247D4002F8D0D /* LoginViewController.swift in Sources */,
+				C28555A8221B79230020CFDC /* CommentTableViewCell.swift in Sources */,
 				C26055B12214E52E00ED68DF /* CameraViewController.swift in Sources */,
 				C26055B32214EFC400ED68DF /* PostTableViewCell.swift in Sources */,
 				C2D223E922124806002F8D0D /* FeedViewController.swift in Sources */,
